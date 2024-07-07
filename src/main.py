@@ -204,8 +204,7 @@ def contacto():
 def ubicacion():
     return send_file("static/ubicacion-responsive.html")
 
-# TODO: ver esto!
-# VER ESTO QUE SIGUE TAMBIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEN
+
 @app.route("/images", methods=["GET", "POST"])
 def images():
 
